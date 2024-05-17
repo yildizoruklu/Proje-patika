@@ -43,4 +43,14 @@ Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
 Bu adımlar Selection Sort'un ilk 4 adımını temsil eder.
 
 
+Proje 2
+Verilen dizi: [16, 21, 11, 8, 12, 22]
+
+[16, 21, 11] ve [8, 12, 22] olarak ikiye böl.
+[16, 21, 11] -> [11, 16, 21] olarak sırala.
+[8, 12, 22] -> [8, 12, 22] olarak sırala.
+Birleştir: [8, 11, 12, 16, 21, 22]
+Big-O gösterimi:
+Merge Sort'un karmaşıklığı her zaman O(n log n) olacaktır.
+
 
