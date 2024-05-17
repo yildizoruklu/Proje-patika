@@ -44,7 +44,26 @@ Bu adımlar Selection Sort'un ilk 4 adımını temsil eder.
 
 
 Proje 2
-Verilen dizi: [16, 21, 11, 8, 12, 22]
+verilen dizi: [16, 21, 11, 8, 12, 22]
+
+[16, 21, 11] ve [8, 12, 22] olarak ikiye böl.
+[16, 21, 11] -> [11, 16, 21] olarak sırala.
+[8, 12, 22] -> [8, 12, 22] olarak sırala.
+Birleştir: [8, 11, 12, 16, 21, 22]
+Big-O gösterimi:
+Merge Sort'un karmaşıklığı her zaman O(n log n) olacaktır.
+
+Proje 3
+Binary Search Tree (BST), veri yapılarından biridir ve her bir düğümün sol alt ağacındaki tüm düğümlerin değerleri o düğümden daha küçük, sağ alt ağacındaki tüm düğümlerin değerleri ise o düğümden daha büyük olacak şekilde düzenlenmiştir.
+
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+BST oluşturulurken aşağıdaki adımlar takip edilir:
+
+Root düğüm oluşturulur: 7
+7'nin solundaki düğüme 5, sağında bulunan düğüme 8 değeri eklenir.
+5'in soluna 1, sağuna 3 değerleri eklenir.
+8'in sağına 9, 5'in sağındaki 3'ün soluna 6, solundaki 1'in sağına 2, 9'un soluna 4 ve 5'in soluna 0 değerleri eklenir.
 
 [16, 21, 11] ve [8, 12, 22] olarak ikiye böl.
 [16, 21, 11] -> [11, 16, 21] olarak sırala.
